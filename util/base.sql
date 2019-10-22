@@ -85,9 +85,9 @@ INSERT INTO `historial` (`id`, `evento`, `fecha`) VALUES
 (43, 'Se insertó un nuevo usuario con ID: 10 con el nombre: Alfredo', '2012-11-14 18:35:27'),
 (44, 'Se insertó un nuevo usuario con ID: 10 con el nombre: Ángel', '2012-11-23 20:45:34'),
 (45, 'Se insertó un nuevo usuario con ID: 12 con el nombre: Ricardo', '2012-11-23 21:50:08');
+(46, 'Se insertó un nuevo usuario con ID: 14 con el nombre: Ruperto', '2013-01-23 11:30:38'); --------------------------------------------------------
 
--- --------------------------------------------------------
-
+--
 --
 -- Estructura de tabla para la tabla `puestos`
 --
@@ -178,6 +178,7 @@ INSERT INTO `usuarios_puestos` (`id`, `usuario`, `puesto`, `inicio`, `fin`) VALU
 (1, 1, 2, '2012-02-26 21:38:46', NULL),
 (4, 2, 3, '2012-02-26 22:23:31', NULL),
 (5, 3, 4, '2012-02-26 22:23:31', NULL);
+(7, 5, 2, '2012-03-28 22:22:21', NULL);
 
 --
 -- Restricciones para tablas volcadas
